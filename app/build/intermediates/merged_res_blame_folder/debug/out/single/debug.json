@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_garden.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_garden.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_clock.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_clock.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/drawable_ic_wallpaper.xml.flat",
+        "source": "com.example.livewally.app-main-82:/drawable/ic_wallpaper.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.livewally.app-main-82:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_ocean.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_ocean.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_cosmos.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_cosmos.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.livewally.app-main-82:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_forest.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_forest.xml"
+    },
+    {
+        "merged": "com.example.livewally.app-merged_res-80:/xml_wallpaper_breathing.xml.flat",
+        "source": "com.example.livewally.app-main-82:/xml/wallpaper_breathing.xml"
+    }
+]

@@ -1,0 +1,75 @@
+Initialized native services in: /Users/govind/.gradle/native
+Initialized jansi services in: /Users/govind/.gradle/native
+Received JVM installation metadata from '/opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home': {JAVA_HOME=/opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home, JAVA_VERSION=17.0.18, JAVA_VENDOR=Homebrew, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=17.0.18+0, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=17.0.18+0, VM_VENDOR=Homebrew, OS_ARCH=aarch64}
+The client will now receive all logging from the daemon (pid: 93779). The daemon log file: /Users/govind/.gradle/daemon/8.5/daemon-93779.out.log
+Starting 16th build in daemon [uptime: 8 mins 27.908 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Calculating task graph as no cached configuration is available for tasks: assembleDebug
+Now considering [/Users/govind/livewally] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/govind/livewally/settings.gradle.kts'.
+Using local directory build cache for the root build (location = /Users/govind/.gradle/caches/build-cache-1, removeUnusedEntriesAfter = 7 days).
+Skipping generation of dependency accessors for libs as it is up-to-date.
+Projects loaded. Root project using build file '/Users/govind/livewally/build.gradle.kts'.
+Included projects: [root project 'LiveWally', project ':app']
+
+> Configure project :
+Evaluating root project 'LiveWally' using build file '/Users/govind/livewally/build.gradle.kts'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+Build cache key for Kotlin DSL accessors for root project 'LiveWally' is 34601a7eee59391821405c089a9ade5d
+Skipping Kotlin DSL accessors for root project 'LiveWally' as it is up-to-date.
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/govind/livewally/app/build.gradle.kts'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+Build cache key for Kotlin DSL accessors for project ':app' is 35b4e1831084066a72a4a1b8301a5203
+Skipping Kotlin DSL accessors for project ':app' as it is up-to-date.
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.1.0) was tested up to compileSdk = 33 (and compileSdkPreview = "UpsideDownCakePrivacySandbox").
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=35
+to this project's gradle.properties.
+Tasks to be executed: [task ':preBuild', task ':preDebugBuild', task ':mergeDebugNativeDebugMetadata', task ':dataBindingMergeDependencyArtifactsDebug', task ':generateDebugResValues', task ':generateDebugResources', task ':mergeDebugResources', task ':packageDebugResources', task ':parseDebugLocalResources', task ':dataBindingGenBaseClassesDebug', task ':checkDebugAarMetadata', task ':mapDebugSourceSetPaths', task ':createDebugCompatibleScreenManifests', task ':extractDeepLinksDebug', task ':processDebugMainManifest', task ':processDebugManifest', task ':processDebugManifestForPackage', task ':processDebugResources', task ':kaptGenerateStubsDebugKotlin', task ':kaptDebugKotlin', task ':compileDebugKotlin', task ':javaPreCompileDebug', task ':compileDebugJavaWithJavac', task ':mergeDebugShaders', task ':compileDebugShaders', task ':generateDebugAssets', task ':mergeDebugAssets', task ':compressDebugAssets', task ':hiltAggregateDepsDebug', task ':hiltJavaCompileDebug', task ':processDebugJavaRes', task ':mergeDebugJavaResource', task ':checkDebugDuplicateClasses', task ':desugarDebugFileDependencies', task ':mergeExtDexDebug', task ':mergeLibDexDebug', task ':transformDebugClassesWithAsm', task ':dexBuilderDebug', task ':mergeProjectDexDebug', task ':mergeDebugJniLibFolders', task ':mergeDebugNativeLibs', task ':stripDebugDebugSymbols', task ':validateSigningDebug', task ':writeDebugAppMetadata', task ':writeDebugSigningConfigVersions', task ':packageDebug', task ':createDebugApkListingFileRedirect', task ':assembleDebug', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:dataBindingMergeDependencyArtifactsDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:dataBindingGenBaseClassesDebug', task ':app:checkDebugAarMetadata', task ':app:mapDebugSourceSetPaths', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:hiltAggregateDepsDebug', task ':app:hiltJavaCompileDebug', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:transformDebugClassesWithAsm', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/androidx/compose/compiler/compiler/1.6.0/compiler-1.6.0.pom]
+Resource missing. [HTTP GET: https://repo.maven.apache.org/maven2/androidx/compose/compiler/compiler/1.6.0/compiler-1.6.0.pom]
+
+0 problems were found storing the configuration cache.
+
+See the complete report at file:///Users/govind/livewally/build/reports/configuration-cache/9tmnkllr4w180ss6gny6mp2w9/3hg7mes59xahrx6dkadhhm2l6/configuration-cache-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Configuration cache state could not be cached: field `compileTimeDependencies` of task `:dataBindingMergeDependencyArtifactsDebug` of type `com.android.build.gradle.internal.tasks.databinding.DataBindingMergeDependencyArtifactsTask`: error writing value of type 'org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollection'
+> Could not resolve all files for configuration ':debugCompileClasspath'.
+   > Could not find androidx.compose.compiler:compiler:1.6.0.
+     Required by:
+         project :
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+Watched directory hierarchies: [/Users/govind/livewally]
+Configuration cache entry discarded due to serialization error.
