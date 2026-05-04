@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveWally</string>
+    
+    <!-- Wallpaper descriptions -->
+    <string name="wallpaper_breathing_desc">A breathing aurora that reflects your screen time</string>
+    <string name="wallpaper_garden_desc">A digital garden that blooms with mindful usage</string>
+    <string name="wallpaper_ocean_desc">An ocean scene that mirrors your digital habits</string>
+    <string name="wallpaper_cosmos_desc">Your wellbeing forms a living constellation</string>
+    <string name="wallpaper_forest_desc">A forest path that clears when you\'re present</string>
+    <string name="wallpaper_clock_desc">A beautiful clock encoding your wellbeing</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_wallpapers">Wallpapers</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="your_wellbeing">Your Wellbeing</string>
+    <string name="steps">Steps</string>
+    <string name="sleep">Sleep</string>
+    <string name="screen_time">Screen Time</string>
+    <string name="notifications">Notifications</string>
+    
+    <!-- Settings -->
+    <string name="wallpaper_behavior">Wallpaper Behavior</string>
+    <string name="frame_rate">Frame Rate</string>
+    <string name="battery_saver">Battery Saver Mode</string>
+    <string name="goals">Goals</string>
+    <string name="bedtime_mode">Bedtime Mode</string>
+    <string name="permissions">Permissions</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="deep_space">#050810</color>
+    <color name="accent_teal">#1D9E75</color>
+    <color name="accent_amber">#EF9F27</color>
+    <color name="accent_rose">#E8593C</color>
+    <color name="garden_day">#1A3A1F</color>
+    <color name="ocean_color">#1A3A5C</color>
+    <color name="forest_color">#1A2D12</color>
+    <color name="surface_dark">#1E1E1E</color>
+</resources>
