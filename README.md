@@ -152,7 +152,7 @@ wellbeingScore = screenScore * 0.35f + stepScore * 0.25f +
 ## Performance
 
 - Target: 30fps on mid-range devices (Snapdragon 6-series)
-- Flagship: 60fps
+- Flagship: 60fps 
 - Battery saver: Halves frame rate when battery < 20%
 - Stops all animation when wallpaper is invisible
 
