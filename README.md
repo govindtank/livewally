@@ -4,8 +4,13 @@ A production-quality Android live wallpaper experience built with Kotlin, MVVM +
 
 ## Screenshots
 
-- `screenshots/dashboard.png` — Home dashboard with wellbeing score, metrics, and garden preview
-- `screenshots/wallpapers.png` — Wallpaper picker with preview cards and list selection
+| Dashboard | Wallpaper Picker | Home |
+|-----------|------------------|------|
+| ![Dashboard](screenshots/dashboard.png) | ![Wallpapers](screenshots/wallpapers.png) | ![Home](screenshots/home.png) |
+
+- `dashboard.png` — Home dashboard with wellbeing score, metrics, and garden preview
+- `wallpapers.png` — Wallpaper picker with preview cards and list selection
+- `home.png` — App home tab
 
 ## Features
 
