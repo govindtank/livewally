@@ -12,7 +12,7 @@ android {
     defaultConfig {
         applicationId = "com.example.livewally"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -30,11 +30,30 @@ android {
 
     buildTypes {
         release {
+            // Read signing config if available
+            def signingPropsFile = rootProject.file("signing/signing-config.properties")
+            if (signingPropsFile.exists()) {
+                def signingProps = new Properties()
+                signingPropsFile.withInputStream { signingProps.load(it) }
+                signingConfigs {
+                    create("release") {
+                        storeFile = file(signingProps["STORE_FILE"])
+                        storePassword = signingProps["STORE_PASSWORD"]
+                        keyAlias = signingProps["KEY_ALIAS"]
+                        keyPassword = signingProps["KEY_PASSWORD"]
+                    }
+                }
+                signingConfig = signingConfigs.getByName("release")
+            }
+
             minifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        debug {
+            signingConfig = null
         }
     }
 

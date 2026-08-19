@@ -8,10 +8,6 @@ A production-quality Android live wallpaper experience built with Kotlin, MVVM +
 |-----------|------------------|------|
 | ![Dashboard](screenshots/dashboard.png) | ![Wallpapers](screenshots/wallpapers.png) | ![Home](screenshots/home.png) |
 
-- `dashboard.png` — Home dashboard with wellbeing score, metrics, and garden preview
-- `wallpapers.png` — Wallpaper picker with preview cards and list selection
-- `home.png` — App home tab
-
 ## Features
 
 ### 6 Animated Live Wallpapers
@@ -25,7 +21,7 @@ A production-quality Android live wallpaper experience built with Kotlin, MVVM +
 
 ### App Experience
 
-- **Dashboard** — Wellbeing score ring, steps/sleep/screen time/notifications metrics, today’s screen time chart, and garden preview.
+- **Dashboard** — Wellbeing score ring, steps/sleep/screen time/notifications metrics, today's screen time chart, and garden preview.
 - **Wallpaper Picker** — Horizontal preview cards, full list view, preview dialog, and one-tap wallpaper setting.
 - **Settings** — Permission guide, frame rate control, battery saver mode, step/screen time/sleep goals, and bedtime mode.
 
@@ -66,8 +62,8 @@ app/
 - **Drawing**: Android Canvas / Compose Graphics
 - **Background**: WorkManager
 - **Storage**: DataStore Preferences + Room
-- **Build**: Gradle Kotlin DSL
-- **Target SDK**: 34
+- **Build**: Gradle
+- **Target SDK**: 35
 - **Min SDK**: 30
 
 ## Permissions
@@ -87,6 +83,15 @@ app/
 | Health Connect permissions | Steps, sleep, heart rate |
 | `ACTIVITY_RECOGNITION` | Fallback step counting |
 
+## Google Play Store Preparation
+
+This repository contains all artifacts needed for Google Play Store submission:
+
+- **PRIVACY_POLICY.md** — Privacy policy template
+- **RELEASE_NOTES.md** — Version release notes
+- **GOOGLE_PLAY_PREP.md** — Complete submission checklist
+- **signing/signing-config.properties.example** — Release signing template
+
 ## Setup
 
 ```bash
@@ -96,9 +101,12 @@ cd livewally
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
-## Release
+## Building for Release
 
-See GitHub Releases for the latest debug APK and setup notes.
+1. Copy `signing/signing-config.properties.example` to `signing/signing-config.properties`
+2. Fill in your keystore details
+3. Build: `./gradlew assembleRelease`
+4. Sign with `apksigner` or upload to Play Console as an App Bundle
 
 ## License
 

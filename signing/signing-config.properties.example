@@ -1,0 +1,8 @@
+# Release signing configuration
+# Copy this file to your local machine and fill in your keystore details
+# DO NOT commit this file to version control
+
+STORE_FILE=livewally-release.jks
+STORE_PASSWORD=your-keystore-password
+KEY_ALIAS=livewally-key
+KEY_PASSWORD=your-key-password
