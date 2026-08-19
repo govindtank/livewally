@@ -7,7 +7,7 @@ Use this checklist to prepare your LiveWally app for Google Play Store submissio
 - [ ] Create Google Play Developer Account ($25 one-time fee)
 - [ ] Verify your identity with Google
 - [ ] Choose app name: **LiveWally**
-- [ ] Choose package name: `com.example.livewally` (or your custom domain)
+- [ ] Choose package name: `com.droidtank.livewally` (or your custom domain)
 - [ ] Prepare app logo (512x512 PNG)
 - [ ] Prepare feature graphic (1024x500 PNG/JPG)
 - [ ] Prepare at least 2 screenshots (phone, min 320px, max 3840px)

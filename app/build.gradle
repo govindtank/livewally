@@ -7,10 +7,10 @@ plugins {
 
 android {
     compileSdk = 33
-    namespace = "com.example.livewally"
+    namespace = "com.droidtank.livewally"
 
     defaultConfig {
-        applicationId = "com.example.livewally"
+        applicationId = "com.droidtank.livewally"
         minSdk = 30
         targetSdk = 35
         versionCode = 1

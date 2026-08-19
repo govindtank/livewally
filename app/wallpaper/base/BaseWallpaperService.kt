@@ -1,4 +1,4 @@
-package com.example.livewally.wallpaper.base
+package com.droidtank.livewally.wallpaper.base
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -11,7 +11,7 @@ import android.view.SurfaceHolder
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color as ComposeColor
-import com.example.livewally.data.model.WellbeingSnapshot
+import com.droidtank.livewally.data.model.WellbeingSnapshot
 
 abstract class BaseWallpaperService : WallpaperService() {
 

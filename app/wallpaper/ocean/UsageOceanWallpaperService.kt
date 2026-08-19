@@ -1,4 +1,4 @@
-package com.example.livewally.wallpaper.ocean
+package com.droidtank.livewally.wallpaper.ocean
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -7,8 +7,8 @@ import android.graphics.Paint
 import android.graphics.Shader
 import android.service.wallpaper.WallpaperService
 import android.view.SurfaceHolder
-import com.example.livewally.data.model.WellbeingSnapshot
-import com.example.livewally.wallpaper.base.BaseWallpaperService
+import com.droidtank.livewally.data.model.WellbeingSnapshot
+import com.droidtank.livewally.wallpaper.base.BaseWallpaperService
 import kotlin.math.sin
 
 class UsageOceanWallpaperService : BaseWallpaperService() {

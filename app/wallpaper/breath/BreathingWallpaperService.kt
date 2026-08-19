@@ -1,4 +1,4 @@
-package com.example.livewally.wallpaper.breath
+package com.droidtank.livewally.wallpaper.breath
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -8,8 +8,8 @@ import android.graphics.Shader
 import android.service.wallpaper.WallpaperService
 import android.util.Log
 import android.view.SurfaceHolder
-import com.example.livewally.data.model.WellbeingSnapshot
-import com.example.livewally.wallpaper.base.BaseWallpaperService
+import com.droidtank.livewally.data.model.WellbeingSnapshot
+import com.droidtank.livewally.wallpaper.base.BaseWallpaperService
 import kotlin.math.sin
 import kotlin.math.PI
 

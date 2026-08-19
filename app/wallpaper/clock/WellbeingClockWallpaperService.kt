@@ -1,4 +1,4 @@
-package com.example.livewally.wallpaper.clock
+package com.droidtank.livewally.wallpaper.clock
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -6,8 +6,8 @@ import android.graphics.Paint
 import android.graphics.RectF
 import android.service.wallpaper.WallpaperService
 import android.view.SurfaceHolder
-import com.example.livewally.data.model.WellbeingSnapshot
-import com.example.livewally.wallpaper.base.BaseWallpaperService
+import com.droidtank.livewally.data.model.WellbeingSnapshot
+import com.droidtank.livewally.wallpaper.base.BaseWallpaperService
 import kotlin.math.cos
 import kotlin.math.sin
 
